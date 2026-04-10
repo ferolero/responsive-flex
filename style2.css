@@ -222,7 +222,7 @@ label {
     color:black;
 }
 
-@media all and (max-width:640px) {
+@media all and (max-width:1024px) {
     
     #navbar {
         height: 40px;
