@@ -243,5 +243,8 @@ label {
 
     .row-contact .name, .row-contact .email {
         width: 100%;
-}
+    }
+    .page {
+    min-height: 60vh;
+    }
 }
