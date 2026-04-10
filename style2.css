@@ -224,7 +224,7 @@ label {
     color:black;
 }
 
-@media all and (max-width:800px) {
+@media all and (max-width:850px) {
     body {
     font-size: 1.3em;
     }
