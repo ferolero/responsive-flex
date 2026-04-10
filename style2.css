@@ -147,7 +147,8 @@ body {
 
 .card img{
     max-width: 100%;
-
+    text-align: center;
+    margin: 0;
 }
 
 .contact-form{ 
