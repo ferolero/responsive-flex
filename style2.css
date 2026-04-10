@@ -6,6 +6,7 @@
 
 body {
     font-family: "Mulish", sans-serif;;
+    font-size: 1.1em;
 }
 
 #wrapper {
@@ -222,7 +223,7 @@ label {
     color:black;
 }
 
-@media all and (max-width:1024px) {
+@media all and (max-width:500px) {
     
     #navbar {
         height: 40px;
