@@ -18,7 +18,7 @@ body {
     position: fixed;
     top:0;
     left:0;
-    height: 90px;
+    height: 120px;
     background-color: black;
     display: block;
     width: 100%;
@@ -34,7 +34,7 @@ body {
     font-size: 2em;
     color:whitesmoke;
     text-decoration: none;
-    height: 90px;
+    height: 120px;
     line-height: 2em;
     cursor: pointer;
 }
@@ -223,8 +223,10 @@ label {
     color:black;
 }
 
-@media all and (max-width:1050px) {
-    
+@media all and (max-width:700px) {
+    body {
+    font-size: 1.4em;
+    }
     #navbar {
         height: 40px;
     }
@@ -245,6 +247,9 @@ label {
         width: 100%;
     }
     .page {
-    min-height: 60vh;
+        min-height: 60vh;
+    }
+    .main {
+        min-height: 20vh;
     }
 }
