@@ -241,7 +241,7 @@ label {
         flex-direction: column;
     }
     .card {
-        flex:flex-grow;
+        flex:auto;
     }
 
     .row-contact .name, .row-contact .email {
@@ -252,5 +252,10 @@ label {
     }
     .main {
         min-height: 20vh;
+    }
+    .card img{
+        display: block;
+        margin: 0 auto;
+        width:80%;
     }
 }
